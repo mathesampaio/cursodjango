@@ -16,7 +16,7 @@ def contato(request):
 
 def produto(request, pk):
 #    prod = Produto.objects.get(id=pk) #aqui o código busca o produto especifico clicado.
-    prod = get_object_or_404(Produto, id=pk) #aqui o código busca o produto especifico clicado.
+    prod = get_object_or_404(Produto,   id=pk) #aqui o código busca o produto especifico clicado.
 
     context = {
         'produto': prod
