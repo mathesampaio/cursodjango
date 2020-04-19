@@ -1,2 +1,2 @@
-web:  gunicore django.wsgi --log-file -
+web: gunicore django.wsgi --log-file -
 
